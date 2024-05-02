@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.2](https://github.com/axetrading/terraform-aws-cloudtrail/compare/v1.0.1...v1.0.2) (2024-05-02)
+
+
+### Bug Fixes
+
+* outputs ([779eab3](https://github.com/axetrading/terraform-aws-cloudtrail/commit/779eab34d1cb31234330b9cf980ec4da2e14ad77))
+
 ### [1.0.1](https://github.com/axetrading/terraform-aws-cloudtrail/compare/v1.0.0...v1.0.1) (2024-05-02)
 
 
