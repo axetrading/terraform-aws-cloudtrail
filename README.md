@@ -34,7 +34,7 @@
 | <a name="input_enable_logging"></a> [enable\_logging](#input\_enable\_logging) | Enable logging for CloudTrail | `bool` | `true` | no |
 | <a name="input_enabled"></a> [enabled](#input\_enabled) | Determines if the CloudTrail should be enabled | `bool` | `true` | no |
 | <a name="input_event_selector"></a> [event\_selector](#input\_event\_selector) | Advanced event selectors for CloudTrail logging | `list(map(any))` | `[]` | no |
-| <a name="input_include_global_service_events"></a> [include\_global\_service\_events](#input\_include\_global\_service\_events) | Specifies whether to include global service events in CloudTrail logs | `bool` | n/a | yes |
+| <a name="input_include_global_service_events"></a> [include\_global\_service\_events](#input\_include\_global\_service\_events) | Specifies whether to include global service events in CloudTrail logs | `bool` | `true` | no |
 | <a name="input_is_multi_region_trail"></a> [is\_multi\_region\_trail](#input\_is\_multi\_region\_trail) | Specifies whether the trail is created in all regions | `bool` | `true` | no |
 | <a name="input_is_organization_trail"></a> [is\_organization\_trail](#input\_is\_organization\_trail) | Specifies whether the trail is an organization trail | `bool` | n/a | yes |
 | <a name="input_kms_key_arn"></a> [kms\_key\_arn](#input\_kms\_key\_arn) | KMS key ARN used for encrypting CloudTrail logs | `string` | `null` | no |
