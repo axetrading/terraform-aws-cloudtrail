@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.1](https://github.com/axetrading/terraform-aws-cloudtrail/compare/v1.0.0...v1.0.1) (2024-05-02)
+
+
+### Bug Fixes
+
+* adding default value for global_services events ([24c61cd](https://github.com/axetrading/terraform-aws-cloudtrail/commit/24c61cdcaae585c13949132cef82c7adf6bb2ab9))
+* adding default value for global_services events ([1c21890](https://github.com/axetrading/terraform-aws-cloudtrail/commit/1c21890654d4952799b8c3900d86bd24e89b3a9e))
+
 ## 1.0.0 (2024-05-02)
 
 
