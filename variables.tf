@@ -47,6 +47,7 @@ variable "is_multi_region_trail" {
 variable "include_global_service_events" {
   description = "Specifies whether to include global service events in CloudTrail logs"
   type        = bool
+  default     = true
 }
 
 variable "cloud_watch_logs_role_arn" {
