@@ -37,7 +37,7 @@
 | <a name="input_include_global_service_events"></a> [include\_global\_service\_events](#input\_include\_global\_service\_events) | Specifies whether to include global service events in CloudTrail logs | `bool` | `true` | no |
 | <a name="input_insight_selector"></a> [insight\_selector](#input\_insight\_selector) | Specifies the type of insights to log in CloudTrail | <pre>list(object({<br>    insight_type = string<br>  }))</pre> | `[]` | no |
 | <a name="input_is_multi_region_trail"></a> [is\_multi\_region\_trail](#input\_is\_multi\_region\_trail) | Specifies whether the trail is created in all regions | `bool` | `true` | no |
-| <a name="input_is_organization_trail"></a> [is\_organization\_trail](#input\_is\_organization\_trail) | Specifies whether the trail is an organization trail | `bool` | n/a | yes |
+| <a name="input_is_organization_trail"></a> [is\_organization\_trail](#input\_is\_organization\_trail) | Specifies whether the trail is an organization trail | `bool` | `false` | no |
 | <a name="input_kms_key_arn"></a> [kms\_key\_arn](#input\_kms\_key\_arn) | KMS key ARN used for encrypting CloudTrail logs | `string` | `null` | no |
 | <a name="input_s3_key_prefix"></a> [s3\_key\_prefix](#input\_s3\_key\_prefix) | S3 key prefix for the location of the saved log files | `string` | `""` | no |
 | <a name="input_sns_topic_name"></a> [sns\_topic\_name](#input\_sns\_topic\_name) | SNS topic name for CloudTrail notifications | `string` | `null` | no |

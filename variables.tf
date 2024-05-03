@@ -71,6 +71,7 @@ variable "kms_key_arn" {
 variable "is_organization_trail" {
   description = "Specifies whether the trail is an organization trail"
   type        = bool
+  default     = false
 }
 
 variable "s3_key_prefix" {
