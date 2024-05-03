@@ -29,7 +29,7 @@ variable "enable_logging" {
 variable "enable_log_file_validation" {
   description = "Enable log file validation in CloudTrail"
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "sns_topic_name" {
@@ -80,8 +80,27 @@ variable "s3_key_prefix" {
 }
 
 variable "event_selector" {
-  description = "Advanced event selectors for CloudTrail logging"
-  type        = list(map(any))
+  type = list(object({
+    data_resource = optional(list(object({
+      type   = string
+      values = list(string)
+    })))
+    exclude_management_event_sources = optional(set(string))
+    include_management_events        = optional(bool)
+    read_write_type                  = optional(string)
+  }))
+
+  description = "Specifies the management and data events that CloudTrail logs."
+  default     = []
+}
+
+
+variable "insight_selector" {
+  type = list(object({
+    insight_type = string
+  }))
+
+  description = "Specifies the type of insights to log in CloudTrail"
   default     = []
 }
 

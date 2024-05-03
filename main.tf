@@ -48,4 +48,11 @@ resource "aws_cloudtrail" "trail" {
       }
     }
   }
+  dynamic "insight_selector" {
+    for_each = var.insight_selector
+    content {
+      insight_type = insight_selector.value.insight_type
+    }
+  }
+
 }
