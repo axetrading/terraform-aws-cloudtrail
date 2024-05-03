@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.3](https://github.com/axetrading/terraform-aws-cloudtrail/compare/v1.0.2...v1.0.3) (2024-05-03)
+
+
+### Bug Fixes
+
+* fixing event selector and adding insight selector ([2d67f4a](https://github.com/axetrading/terraform-aws-cloudtrail/commit/2d67f4ad9899b69ab8b49b5c597e21c78ae8dae5))
+
 ### [1.0.2](https://github.com/axetrading/terraform-aws-cloudtrail/compare/v1.0.1...v1.0.2) (2024-05-02)
 
 
