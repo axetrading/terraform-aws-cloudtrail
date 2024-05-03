@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.4](https://github.com/axetrading/terraform-aws-cloudtrail/compare/v1.0.3...v1.0.4) (2024-05-03)
+
+
+### Bug Fixes
+
+* fix is_organization_trail default value ([a1512bc](https://github.com/axetrading/terraform-aws-cloudtrail/commit/a1512bc488ab2c6bd5471997dc9b47ab7ef72021))
+
 ### [1.0.3](https://github.com/axetrading/terraform-aws-cloudtrail/compare/v1.0.2...v1.0.3) (2024-05-03)
 
 
