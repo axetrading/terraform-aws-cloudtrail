@@ -95,7 +95,6 @@ variable "event_selector" {
   default     = []
 }
 
-
 variable "insight_selector" {
   type = list(object({
     insight_type = string
@@ -104,7 +103,6 @@ variable "insight_selector" {
   description = "Specifies the type of insights to log in CloudTrail"
   default     = []
 }
-
 
 variable "tags" {
   description = "A map of tags to assign to the resource"
